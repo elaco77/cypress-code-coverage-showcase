@@ -1,20 +1,10 @@
-# Simple React JS Project
+# Cypress e2e code coverage showcase
+
+## This is a fork from the aditya-sridhar/simple-reactjs-app (thank you!)
 
 ## What is the use of this Repo
 
-This Project is a Simple ReactJS Project which demonstrates the following
-1. Creating a Component in React
-2. Making HTTP calls
-3. Communicating between parent and child component
-4. Using Bootstrap along with React
-5. Using Basic Routing in React
-
-The project Template can be used to build bigger projects
-
-## Live Application URL
-
-### https://aditya-sridhar.github.io/simple-reactjs-app
-This URL has the application deployed in
+This repo is showing how Cypress is generating a code coverage report for the end to end tests
 
 ## Prerequisites
 
@@ -27,11 +17,6 @@ Install create-react-app npm package globally. This will help to easily run the 
 ```bash
 npm install -g create-react-app
 ```
-## Live Application URL
-
-The Application is deployed in https://aditya-sridhar.github.io/simple-reactjs-app
-
-Click on the link to see the application
 
 ## Cloning and Running the Application in local
 
@@ -50,6 +35,28 @@ npm start
 ```
 
 The Application Runs on **localhost:3000**
+
+In order to run the end to end test run
+
+```bash
+npm run cypress:open
+```
+
+or
+
+```bash
+npm run cypress:open
+```
+
+to run test in the headles mode
+
+## Cypress docs
+
+https://docs.cypress.io/guides/tooling/code-coverage.html#Install-the-plugin
+
+## Code coverage report
+
+After the tests complete, the final code coverage is saved to a .nyc_output folder. It is a JSON file from which we can generate a report in a variety of formats. The @cypress/code-coverage plugin generates the HTML report automatically - you can open the coverage/index.html page locally after the tests finish. You can also call nyc report to generate other reports, for example, sending the coverage information to 3rd party services.
 
 ## Application design
 
