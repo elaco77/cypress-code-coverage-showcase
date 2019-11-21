@@ -37,7 +37,7 @@ export default class CustomerDetails extends Component {
     return (<div className="customerdetails">
       <Panel bsStyle="info" className="centeralign">
         <Panel.Heading>
-          <Panel.Title componentClass="h3">{this.state.customerDetails.data.name}</Panel.Title>
+          <Panel.Title componentClass="h3" data-cy="aut-l-title">{this.state.customerDetails.data.name}</Panel.Title>
         </Panel.Heading>
         <Panel.Body>
           <p>Name : {this.state.customerDetails.data.name}</p>

@@ -10,7 +10,6 @@
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
-
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,6 +20,10 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "@cypress/code-coverage": "^1.10.2",
+    "cypress": "^3.6.1",
+    "gh-pages": "^1.2.0",
+    "istanbul-lib-coverage": "^2.0.5",
+    "nyc": "^14.1.1"
   }
 }

@@ -39,7 +39,7 @@ export default class Customers extends Component {
             <Panel.Body>
               <p>{customer.email}</p>
               <p>{customer.phone}</p>
-              <Button bsStyle="info" onClick={() => this.setState({selectedCustomer: customer.id})}>
+              <Button bsStyle="info" onClick={() => this.setState({selectedCustomer: customer.id})} data-cy={`aut-b-view-${customer.id}`}>
 
                 Click to View Details
 
