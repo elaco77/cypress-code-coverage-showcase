@@ -45,7 +45,7 @@ npm run cypress:open
 or
 
 ```bash
-npm run cypress:open
+npm run cypress:run
 ```
 
 to run test in the headles mode
